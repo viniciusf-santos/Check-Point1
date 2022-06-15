@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Muli:400,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  padding: 20px 10px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.header-menu a {
+  background-color: black;
+  border-radius: 10px;
+  font-size: 2rem;
+  line-height: 1;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  font-family: "Muli", sans-serif;
+}
+
+.banner-fundo {
+  max-width: 100%;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: flex;
+  grid-template-columns: 1fr 2fr;
+  gap: 70px;
+  color: black;
+  font-weight: bold;
+}
+
+.sobre-sp {
+  font-family: "Muli", sans-serif;
+  font-size: 3rem;
+}
+
+.texto-sobre-sp {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  gap: 10px;
+}
+
+.texto-paulista {
+  font-size: 1.3rem;
+}
+
+.titulo {
+  text-align: center;
+  color: black;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 100px;
+  font-family: "Muli", sans-serif;
+}
+
+.curiosidades {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+  padding-left: 15px;
+  margin-bottom: 100px;
+}
+
+.card {
+  text-align: center;
+  margin: 10px;
+  border-radius: 25px;
+  border: 5px;
+  background-color: #fdfdfd;
+}
+
+.card-background {
+  width: 500px;
+  height: 300px;
+  position: center;
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  max-width: 100%;
+  border-radius: 25px;
+  border: 5px;
+}
+
+.descricao {
+  color: black;
+  max-width: 500px;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.video {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  margin-top: 100px;
+}
+
+.icone {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 100px;
+}
+
+.icone img {
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+}
+
+@media (min-width: 425px) and (max-width: 552px) {
+  .header {
+    background-color: black;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .header-menu {
+    background-color: black;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .header-menu a {
+    background-color: black;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  .header img {
+    width: 300px;
+    height: 150px;
+  }
+
+  main {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .img-paulista {
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+  }
+
+  .sobre-sp {
+    font-size: 1.5rem;
+  }
+
+  .texto-paulista {
+    font-size: 1.1rem;
+    align-self: center;
+  }
+
+  .texto-sobre-sp {
+    margin-top: -25px;
+    text-align: center;
+  }
+
+  .titulo {
+    font-size: 1.5rem;
+    margin-top: -15px;
+  }
+
+  .descricao {
+    font-size: 1.1rem;
+  }
+
+  .video {
+    margin-top: -40px;
+  }
+
+  footer {
+    margin-top: -40px;
+  }
+}
